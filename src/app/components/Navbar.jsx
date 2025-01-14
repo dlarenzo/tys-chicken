@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
@@ -39,7 +40,9 @@ const Navbar = () => {
           href="/"
           className="font-bold text-2xl text-transform uppercase"
         >
-          Ty's Chicken
+          <div className="flex justify-center items-center w-[60px] h-[60px] ">
+            <Image src="/imgs/logo.png" width={600} height={600} alt="logo" />
+          </div>
         </Link>
         <ul
           style={{ color: `${textColor}` }}

@@ -32,7 +32,7 @@ const Menu = ({ title }) => {
       id: 4,
       title: "Blackened Ranch Chicken",
       price: 10,
-      image: "/imgs/menu/caramel-Zu_w3tFOtUA-unsplash.jpg",
+      image: "/imgs/menu/chickensandwich.jpg",
       description:
         "Our chicken wings are seasoned to perfection and cooked until golden and crispy. Enough to make you slap ya mamma!",
     },
@@ -56,7 +56,7 @@ const Menu = ({ title }) => {
 
   return (
     <div className="max-w-[1240px] m-auto">
-      <h1 className="text-8xl font-bold text-center my-8 py-10 text-transform uppercase">
+      <h1 className="text-6xl md:text-8xl  font-bold text-center my-8 py-10 text-transform uppercase">
         {title}
       </h1>
 
