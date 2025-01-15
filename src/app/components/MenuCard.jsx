@@ -11,7 +11,7 @@ const MenuCard = ({ title, price, image, description }) => {
         ${price}
       </div>
 
-      <div className="bg-[#0076E4]/70 p-5 text-center mt-80">
+      <div className="bg-[#0076E4]/90 p-5 text-center mt-80">
         <p className="text-3xl font-bold pb-2">{title}</p>
         <p>{description}</p>
       </div>

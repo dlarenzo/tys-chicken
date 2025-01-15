@@ -3,14 +3,14 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="max-w-[1240px] m-auto p-4">
-      <h1 className="text-6xl md:text-8xl  font-bold text-center my-8 py-10 text-transform uppercase">
+    <div id="about" className="max-w-[1240px] m-auto p-4">
+      <h1 className="text-6xl md:text-8xl  font-bold text-center my-8  text-transform uppercase">
         About
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="flex justify-center">
           <Image
-            src="/imgs/about/owner2.png"
+            src="/imgs/about/Owner2.png"
             alt="Image of Food Truck owner"
             width={500}
             height={500}

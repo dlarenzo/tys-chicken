@@ -4,6 +4,7 @@ import Menu from "./components/Menu";
 import About from "./components/About";
 import Kids from "./components/Kids";
 import Gallery from "./components/Gallery";
+import Email from "./components/Email";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       />
       <About title="About" />
       <Gallery title="Gallery" />
+      <Email title="We'd love to hear from you!" email="Email Us!" />
     </main>
   );
 }

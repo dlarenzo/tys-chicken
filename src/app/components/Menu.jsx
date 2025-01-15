@@ -55,8 +55,8 @@ const Menu = ({ title }) => {
   ];
 
   return (
-    <div className="max-w-[1240px] m-auto">
-      <h1 className="text-6xl md:text-8xl  font-bold text-center my-8 py-10 text-transform uppercase">
+    <div id="menu" className="max-w-[1240px] m-auto">
+      <h1 className="text-6xl md:text-8xl  font-bold text-center my-8 text-transform uppercase">
         {title}
       </h1>
 
